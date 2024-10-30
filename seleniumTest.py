@@ -44,7 +44,7 @@ class AppTest(unittest.TestCase):
         except Exception as e:
             self.fail(f"Test failed due to: {e}")
 
-  
+
 
     def tearDown(self):
         # Clean up and close the browser
